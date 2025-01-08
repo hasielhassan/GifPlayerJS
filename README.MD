@@ -29,6 +29,9 @@ In your HTML, make sure you include [libgif.js](https://www.jsdelivr.com/package
 ```html
 <script src="https://cdn.jsdelivr.net/npm/libgif@0.0.3/libgif.js"></script>
 <script src="gifplayer.js"></script>
+<!-- Or also using https://raw.githack.com-->
+<script src="https://raw.githack.com/hasielhassan/GifPlayerJS/main/gifplayer.js"></script>
+
 ```
 
 ### 2. Initialize
@@ -59,6 +62,8 @@ Here’s a minimal working example (`example.html`):
   <script src="https://cdn.jsdelivr.net/npm/libgif@0.0.3/libgif.js"></script>
   <!-- GifPlayerJS -->
   <script src="gifplayer.js"></script>
+  <!-- Or also using https://raw.githack.com-->
+  <script src="https://raw.githack.com/hasielhassan/GifPlayerJS/main/gifplayer.js"></script>
 
   <script>
     // On load, initialize
