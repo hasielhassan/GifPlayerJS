@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GifPlayerJS Example</title>
+</head>
+<body>
+    <!-- Some .gif images -->
+    <!-- Originally from: https://commons.wikimedia.org/wiki/File:Alto%27s_Adventure_animation_-_12_Forest.gif -->
+    <img src="resources\Alto's_Adventure_animation_-_12_Forest.gif" />
+
+    <!-- libgif -->
+    <script src="https://cdn.jsdelivr.net/npm/libgif@0.0.3/libgif.js"></script>
+    <!-- GifPlayerJS -->
+    <script src="gifplayer.js"></script>
+
+    <script>
+        // On load, initialize
+        window.addEventListener('load', InitializeGifPlayers);
+    </script>
+</body>
+</html>
