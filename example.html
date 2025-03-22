@@ -3,18 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <title>GifPlayerJS Example</title>
+  <!-- libgif -->
+  <script src="https://cdn.jsdelivr.net/npm/libgif@0.0.3/libgif.js"></script>
+  <!-- GifPlayerJS -->
+  <script src="gifplayer.js"></script>
+  <!-- Or also using https://raw.githack.com-->
+  <!--<script src="https://raw.githack.com/hasielhassan/GifPlayerJS/v0.0.2/gifplayer.js"></script> -->
 </head>
 <body>
     <!-- Some .gif images -->
     <!-- Originally from: https://commons.wikimedia.org/wiki/File:Alto%27s_Adventure_animation_-_12_Forest.gif -->
+
+    <!-- one with custom larger image resolution -->
+    <img src="resources\Alto's_Adventure_animation_-_12_Forest.gif" width="1000"/>
+
+    <!-- one with default image resolution -->
     <img src="resources\Alto's_Adventure_animation_-_12_Forest.gif" />
 
-    <!-- libgif -->
-    <script src="https://cdn.jsdelivr.net/npm/libgif@0.0.3/libgif.js"></script>
-    <!-- GifPlayerJS -->
-    <script src="gifplayer.js"></script>
-    <!-- Or also using https://raw.githack.com-->
-    <script src="https://raw.githack.com/hasielhassan/GifPlayerJS/main/gifplayer.js"></script>
+    <!-- one with custom smaller image resolution -->
+    <img src="resources\Alto's_Adventure_animation_-_12_Forest.gif" width="320"/>
+
+    <!-- another with custom even smaller image resolution -->
+    <img src="resources\Alto's_Adventure_animation_-_12_Forest.gif" width="160"/>
 
     <script>
         // On load, initialize
